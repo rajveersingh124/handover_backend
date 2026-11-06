@@ -1,0 +1,13 @@
+
+PROJECT: HandoverHub AI
+
+DONE: Frontend design completed
+DONE: Project requirements collected
+
+PENDING: Database connection
+PENDING: AI API integration
+
+DECISION: Python will be used for backend
+DECISION: Gemini API will be tested
+
+BLOCKER: API integration is not completed

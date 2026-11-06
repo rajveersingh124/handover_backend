@@ -1,0 +1,178 @@
+{
+    "project_name": "HandoverHub AI",
+    "project_snapshot": {
+        "summary": "Project HandoverHub AI has completed requirements collection and frontend design, decided on Python backend and Gemini API testing, but is blocked by incomplete API integration with pending database connection and AI API integration tasks.",
+        "status": "blocked",
+        "supporting_source_lines": [
+            2,
+            5,
+            4,
+            7,
+            8,
+            10,
+            11,
+            13
+        ]
+    },
+    "completed": [
+        {
+            "item": "Project requirements collected",
+            "owner": null,
+            "source_line": 5,
+            "evidence": "DONE: Project requirements collected",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        },
+        {
+            "item": "Frontend design completed",
+            "owner": null,
+            "source_line": 4,
+            "evidence": "DONE: Frontend design completed",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        }
+    ],
+    "pending": [
+        {
+            "item": "Database connection",
+            "owner": null,
+            "source_line": 7,
+            "evidence": "PENDING: Database connection",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        },
+        {
+            "item": "AI API integration",
+            "owner": null,
+            "source_line": 8,
+            "evidence": "PENDING: AI API integration",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        }
+    ],
+    "decisions": [
+        {
+            "item": "Python will be used for backend",
+            "owner": null,
+            "source_line": 10,
+            "evidence": "DECISION: Python will be used for backend",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        },
+        {
+            "item": "Gemini API will be tested",
+            "owner": null,
+            "source_line": 11,
+            "evidence": "DECISION: Gemini API will be tested",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        }
+    ],
+    "blockers": [
+        {
+            "item": "API integration is not completed",
+            "owner": null,
+            "source_line": 13,
+            "evidence": "BLOCKER: API integration is not completed",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        }
+    ],
+    "risks": [],
+    "dependencies": [
+        {
+            "item": "AI API integration depends on database connection being established",
+            "depends_on": "Database connection",
+            "source_line": 7,
+            "evidence": "PENDING: Database connection",
+            "confidence": "low",
+            "source_check": "MATCHED"
+        }
+    ],
+    "next_actions": [
+        {
+            "item": "Resolve the API integration blocker to unblock pending tasks",
+            "action_type": "suggested",
+            "owner": null,
+            "priority": "high",
+            "due_date": null,
+            "source_line": 13,
+            "evidence": "BLOCKER: API integration is not completed",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        },
+        {
+            "item": "Complete database connection task",
+            "action_type": "suggested",
+            "owner": null,
+            "priority": "medium",
+            "due_date": null,
+            "source_line": 7,
+            "evidence": "PENDING: Database connection",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        },
+        {
+            "item": "Complete AI API integration task",
+            "action_type": "suggested",
+            "owner": null,
+            "priority": "medium",
+            "due_date": null,
+            "source_line": 8,
+            "evidence": "PENDING: AI API integration",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        }
+    ],
+    "ownership_gaps": [
+        {
+            "item": "Project requirements collected",
+            "source_line": 5,
+            "evidence": "DONE: Project requirements collected",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        },
+        {
+            "item": "Frontend design completed",
+            "source_line": 4,
+            "evidence": "DONE: Frontend design completed",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        },
+        {
+            "item": "Database connection",
+            "source_line": 7,
+            "evidence": "PENDING: Database connection",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        },
+        {
+            "item": "AI API integration",
+            "source_line": 8,
+            "evidence": "PENDING: AI API integration",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        },
+        {
+            "item": "API integration blocker resolution",
+            "source_line": 13,
+            "evidence": "BLOCKER: API integration is not completed",
+            "confidence": "high",
+            "source_check": "MATCHED"
+        }
+    ],
+    "conflicts": [],
+    "needs_verification": [],
+    "missing_information": [
+        "Owner assignments for all tasks and decisions",
+        "Deadlines for pending tasks",
+        "Details on what specifically is not completed in API integration",
+        "Status of Gemini API testing mentioned in decision"
+    ],
+    "handover_readiness": {
+        "status": "incomplete",
+        "reason": "Project is blocked by incomplete API integration; no owners or deadlines identified for tasks; missing details on blocker resolution."
+    },
+    "human_review_required": true,
+    "source_file": "meeting_notes.txt"
+}

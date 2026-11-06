@@ -1,0 +1,45 @@
+{
+    "project_name": "HandoverHub AI",
+    "review_status": "PENDING_HUMAN_REVIEW",
+    "approved_for_sharing": false,
+    "evidence_validation": {
+        "total_items_checked": 16,
+        "matched_items": 16,
+        "items_needing_review": 0
+    },
+    "checklist": [
+        {
+            "task": "Read the original meeting notes",
+            "checked": false
+        },
+        {
+            "task": "Verify each source citation and its meaning",
+            "checked": false
+        },
+        {
+            "task": "Confirm completed and pending task status",
+            "checked": false
+        },
+        {
+            "task": "Confirm owners, priorities and deadlines",
+            "checked": false
+        },
+        {
+            "task": "Review blockers, risks and dependencies",
+            "checked": false
+        },
+        {
+            "task": "Resolve conflicts and missing information",
+            "checked": false
+        },
+        {
+            "task": "Check that no confidential information is included",
+            "checked": false
+        },
+        {
+            "task": "Obtain approval from an authorised project reviewer",
+            "checked": false
+        }
+    ],
+    "note": "This checklist is a draft. A human reviewer must complete it; the script does not approve or distribute the report."
+}

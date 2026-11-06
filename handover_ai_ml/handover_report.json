@@ -1,0 +1,46 @@
+{
+    "project_name": "HandoverHub AI",
+    "completed": [
+        {
+            "text": "Frontend design completed",
+            "source": "meeting_notes.txt",
+            "line": 4
+        },
+        {
+            "text": "Project requirements collected",
+            "source": "meeting_notes.txt",
+            "line": 5
+        }
+    ],
+    "pending": [
+        {
+            "text": "Database connection",
+            "source": "meeting_notes.txt",
+            "line": 7
+        },
+        {
+            "text": "AI API integration",
+            "source": "meeting_notes.txt",
+            "line": 8
+        }
+    ],
+    "decisions": [
+        {
+            "text": "Python will be used for backend",
+            "source": "meeting_notes.txt",
+            "line": 10
+        },
+        {
+            "text": "Gemini API will be tested",
+            "source": "meeting_notes.txt",
+            "line": 11
+        }
+    ],
+    "blockers": [
+        {
+            "text": "API integration is not completed",
+            "source": "meeting_notes.txt",
+            "line": 13
+        }
+    ]
+}
